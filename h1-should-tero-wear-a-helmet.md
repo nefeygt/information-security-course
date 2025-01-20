@@ -12,9 +12,9 @@
    - Explains technical words, explains how we are going to use the four questions in practice.
    - Overall entertaining and informative videos about threat modeling. I enjoyed watching it and now have a better understanding of the term "Threat Modeling".
 3. OWASP CheatSheets Series Team 2021: Threat Modeling Cheat Sheet (https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html):
-   -
-
-
+   - A more detailed and explanatory documentation of Threat Modeling.
+   - Explains the same concepts in a more detailed another perspective.
+   - I liked the general structure and visuals of this page.
 
 ### Infosec scene:
 
@@ -27,4 +27,4 @@
 
 
 ### Technical Words Learned:
-Four questions (what are we working on, what can go wrong, what are we going to do about it, did we do a good job), Threat Modeling Manifesto, sketching, data flow diagrams, risk management.
+Four questions (what are we working on, what can go wrong, what are we going to do about it, did we do a good job), Threat Modeling Manifesto, sketching, data flow diagrams, risk management, TOE (Target of Evaluation), system modeling, threat identification, STRIDE.
