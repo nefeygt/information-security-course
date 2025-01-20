@@ -13,8 +13,6 @@
    - Overall entertaining and informative videos about threat modeling. I enjoyed watching it and now have a better understanding of the term "Threat Modeling".
 3. OWASP CheatSheets Series Team 2021: Threat Modeling Cheat Sheet (https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html):
    -
-   -
-   -
 
 
 
