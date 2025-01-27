@@ -47,6 +47,6 @@
 kill chain, incident response, intrusion detection, intelligence, threat, APT, computer network defense, 
 
 ### References:
-Karvinen 2024: Information Security Course, https://terokarvinen.com/information-security/
+Karvinen 2024: Information Security Course, https://terokarvinen.com/information-security/ <br>
 Hutchins et al 2011: Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains <br>
 MITRE ATT&CK Matrix, https://attack.mitre.org/
