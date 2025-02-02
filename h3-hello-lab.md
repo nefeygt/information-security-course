@@ -13,6 +13,20 @@
    - I downloaded nethack and saw that it runs, then I deleted it.
 
 ## a) Can't fish:
+1. ping 1.1.1.1 (connected to the internet):
+   -![image](https://github.com/user-attachments/assets/a56711ec-9184-4c92-a537-cdf9623bdcfa)
+   -Ping is basically packets called ICMP Echo request, in the screenshot there are several fields:
+      -icmp_seq: sequence of the ping packets in that whole ping function
+      -ttl: means time-to-live, total number of hops before dropping a packet
+      -time: total time of the ping packet starting from sending and ending in recieving
+   -I learned these words in my networking course last year.
+3. ping 8.8.8.8 (connected to the internet):
+   -![image](https://github.com/user-attachments/assets/a85287a1-1cf4-4ad6-aba8-fd87ace66722)
+4. When disconnected from the internet:
+   -![image](https://github.com/user-attachments/assets/ee7d51b9-87ba-4c93-9709-a49c68b11297)
+   -It is not possible to send pings without the internet connection.
+
+
 ## b) Local only:
 ## c) Daemon scan:
 ## d) Bandit oh-five:
