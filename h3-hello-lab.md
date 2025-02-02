@@ -28,6 +28,8 @@
 
 
 ## b) Local only:
+![image](https://github.com/user-attachments/assets/155c9ff2-e7f2-41e3-a4e8-8b8562214611)
+
 ## c) Daemon scan:
 ## d) Bandit oh-five:
 ## e) Voluntary bonus task:
