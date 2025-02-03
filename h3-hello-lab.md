@@ -30,8 +30,23 @@
 ## b) Local only:
 ![image](https://github.com/user-attachments/assets/155c9ff2-e7f2-41e3-a4e8-8b8562214611)
 
+
 ## c) Daemon scan:
+![image](https://github.com/user-attachments/assets/76fa7143-b529-4f81-adf4-edcc906f74dd)
+
 ## d) Bandit oh-five:
+-First I installed SSH.
+![image](https://github.com/user-attachments/assets/a9fd56bf-43c7-4e47-a840-9f33f029b877)
+I learned that the password for level 1 is: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+
+From the hidden file I found the password of the next level: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+
+From another file I found the next level's password to be: MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+
+From the next level's hiden file I found the password to the Level 5 to be: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+
+The last password of this homework is: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+
 ## e) Voluntary bonus task:
 
 
@@ -39,3 +54,4 @@
 Karvinen 2024: Information Security Course, https://terokarvinen.com/information-security/ <br>
 Karvinen 2021: Install Debian on Virtualbox - Updated 2024 <br>
 Karvinen 2020: Command Line Basics Revisited
+https://overthewire.org/wargames/bandit/
