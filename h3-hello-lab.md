@@ -29,10 +29,22 @@
 
 ## b) Local only:
 ![image](https://github.com/user-attachments/assets/155c9ff2-e7f2-41e3-a4e8-8b8562214611)
+two open ports:
+Port 25 (SMTP) running Exim 4.96 (used for sending emails).
+Port 631 (IPP) running CUPS 2.4 (a printing service).
+998 ports are closed, meaning they are not responding.
 
+ELI5 (Explain Like I'm Five)
+Imagine your computer is a house with 1000 doors (ports). Nmap checks which doors are open. It found that door 25 (for sending letters, like email) and door 631 (for printing documents) are unlocked. Everything else is locked. The house is pretty old (like from 2009), and the security system (SSL) isn't very good.
 
 ## c) Daemon scan:
 ![image](https://github.com/user-attachments/assets/76fa7143-b529-4f81-adf4-edcc906f74dd)
+Nmap Scan Before Installing Apache
+Only two ports were open: Port 25 (SMTP - Exim Mail Server) and Port 631 (CUPS - Printing Service).
+
+After installation, Port 80 (HTTP - Apache Web Server) became open.
+Running Nmap again confirmed that Apache was active and serving web pages.
+Stopping Apache (sudo systemctl stop apache2) closes port 80 again.
 
 ## d) Bandit oh-five:
 -First I installed SSH.
