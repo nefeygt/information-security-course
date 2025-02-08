@@ -24,9 +24,11 @@
       - Prevention emphasizes parameterized APIs, input validation, and escaping special characters.
       - Example attacks show raw SQL and Hibernate queries concatenated with user input, allowing attackers to inject malicious code. The code snippets make it clear how small coding mistakes create huge holes—kinda scary but super instructive!
 
-2. Munroe: xkcd 327: Exploits of a Mom: It's a funny and short comic to emphasize the importance of SQL injection and sanitizing. I learned about sanitizing during my frontend and backend courses back in Turkey and since then I really do care about an work while knowing the importance of sanitization.
+2. Munroe: xkcd 327: Exploits of a Mom: <br>
+It's a funny and short comic to emphasize the importance of SQL injection and sanitizing. I learned about sanitizing during my frontend and backend courses back in Turkey and since then I really do care about an work while knowing the importance of sanitization.
 
-## a) Goat (Install WebGoat 2023.4.): I followed the steps on the Tero's webpage and successfully downloaded and ran the app. I accessed it on the localhost and port 8888.
+## a) Goat (Install WebGoat 2023.4.): <br>
+I followed the steps on the Tero's webpage and successfully downloaded and ran the app. I accessed it on the localhost and port 8888.
 
 ## b) F12. Solve Webgoat 2023.4: General: Developer tools: I followed the steps on WebGoat to learn more and practice on the developer tools and I solved the interactive problem and I really enjoyed it. The second one was a bit harder and more complex to do it but was also more fun.
 1. ![image](https://github.com/user-attachments/assets/4648c181-2df9-4b1c-9fe7-cf768bc73af3)
