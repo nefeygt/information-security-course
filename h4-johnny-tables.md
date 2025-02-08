@@ -25,20 +25,28 @@
       - Example attacks show raw SQL and Hibernate queries concatenated with user input, allowing attackers to inject malicious code. The code snippets make it clear how small coding mistakes create huge holes—kinda scary but super instructive!
 
 2. Munroe: xkcd 327: Exploits of a Mom: <br>
+
 It's a funny and short comic to emphasize the importance of SQL injection and sanitizing. I learned about sanitizing during my frontend and backend courses back in Turkey and since then I really do care about an work while knowing the importance of sanitization.
 
 ## a) Goat (Install WebGoat 2023.4.): <br>
+
 I followed the steps on the Tero's webpage and successfully downloaded and ran the app. I accessed it on the localhost and port 8888.
 
-## b) F12. Solve Webgoat 2023.4: General: Developer tools: I followed the steps on WebGoat to learn more and practice on the developer tools and I solved the interactive problem and I really enjoyed it. The second one was a bit harder and more complex to do it but was also more fun.
+## b) F12. Solve Webgoat 2023.4: General: Developer tools: <br>
+
+I followed the steps on WebGoat to learn more and practice on the developer tools and I solved the interactive problem and I really enjoyed it. The second one was a bit harder and more complex to do it but was also more fun.
 1. ![image](https://github.com/user-attachments/assets/4648c181-2df9-4b1c-9fe7-cf768bc73af3)
 2. ![image](https://github.com/user-attachments/assets/49646423-8252-47fe-a389-a61db461e39b)
 
-## c) Not outdated. Update all operating system and all applications in your Linux: I looked it up from google and learned that only two commands are enough to achieve this so I ran them and rebooted the system. It took a bit longer than I expected.
+## c) Not outdated. Update all operating system and all applications in your Linux: <br>
+
+I looked it up from google and learned that only two commands are enough to achieve this so I ran them and rebooted the system. It took a bit longer than I expected.
 ![image](https://github.com/user-attachments/assets/b0395ea0-b32f-4026-8def-de277bad8509)
 
 
-## d) Sequel. Solve SQLZoo: I solved three levels starting from: 0 SELECT basics to 2 SELECT from World. These were easy and I actually solved these a year ago for my SQL course back in Turkey. I did more advanced stuff with SQL during that course so these were so easy for me. But I realized that I need some practice with SQL while trying to solve the hard questions because it's been a long time since I used it last time.
+## d) Sequel. Solve SQLZoo: <br>
+
+I solved three levels starting from: 0 SELECT basics to 2 SELECT from World. These were easy and I actually solved these a year ago for my SQL course back in Turkey. I did more advanced stuff with SQL during that course so these were so easy for me. But I realized that I need some practice with SQL while trying to solve the hard questions because it's been a long time since I used it last time.
 
 ## e) Solve Portswigger Labs: Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data. Explain how and why! How can you find the vulnerabitiy? What each part of the exploit does?:
 1. How does it work?
@@ -56,7 +64,6 @@ I followed the steps on the Tero's webpage and successfully downloaded and ran t
       - And therefore we succesfully get the results from this security leak and lack of sanitization: ![image](https://github.com/user-attachments/assets/4c5fb69e-f4e9-4913-8f74-0cc873edc83f)
 2. Why does it work?: <br>
 The application fails to sanitize user input, allowing us to manipulate the SQL query. The payload ' OR 1=1-- ensures the WHERE clause is always true, bypassing filters and exposing hidden data. And finally we access to the databsae
-
 
 ## m) Voluntary bonus: WebGoat: SQL Injection:
 
