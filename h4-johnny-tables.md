@@ -32,16 +32,29 @@
 1. ![image](https://github.com/user-attachments/assets/4648c181-2df9-4b1c-9fe7-cf768bc73af3)
 2. ![image](https://github.com/user-attachments/assets/49646423-8252-47fe-a389-a61db461e39b)
 
+## c) Not outdated. Update all operating system and all applications in your Linux: I looked it up from google and learned that only two commands are enough to achieve this so I ran them and rebooted the system. It took a bit longer than I expected.
+![image](https://github.com/user-attachments/assets/b0395ea0-b32f-4026-8def-de277bad8509)
 
 
-## c) Not outdated. Update all operating system and all applications in your Linux:
-
-## d) Sequel. Solve SQLZoo:
-1. 0 SELECT basics:
-2. 2 SELECT from World, from first two subtasks: "1. You can use WHERE..." and "2. Find the countries...".
-
+## d) Sequel. Solve SQLZoo: I solved three levels starting from: 0 SELECT basics to 2 SELECT from World. These were easy and I actually solved these a year ago for my SQL course back in Turkey. I did more advanced stuff with SQL during that course so these were so easy for me. But I realized that I need some practice with SQL while trying to solve the hard questions because it's been a long time since I used it last time.
 
 ## e) Solve Portswigger Labs: Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data. Explain how and why! How can you find the vulnerabitiy? What each part of the exploit does?:
+1. How does it work?
+   1. Finding the injection point first:
+      - The lab application filters products by category via a URL parameter.
+      - This parameter is likely used directly in a SQL query without proper sanitization.
+   2. Testing to find a vulnerability:
+      - Append a single quote ' to the category value to break the SQL syntax: https://0ae20062045e6dae80e5b7e600fb00dc.web-security-academy.net/filter?category=Gifts'
+      - And then the results is like this: ![image](https://github.com/user-attachments/assets/b5551d26-11a7-4318-be2b-f2b647b7342f)
+      - Server returns a database error, it confirms improper input handling
+   3. Creating the exploit:
+      - Inject ' OR 1=1-- into the parameter.
+      - So my final URL looks like this: https://0ae20062045e6dae80e5b7e600fb00dc.web-security-academy.net/filter?category=Gifts%27%20OR%201=1--%20
+      - And this URL forces the webpage to this query: SELECT * FROM products WHERE category = 'Gifts' OR 1=1-- '
+      - And therefore we succesfully get the results from this security leak and lack of sanitization: ![image](https://github.com/user-attachments/assets/4c5fb69e-f4e9-4913-8f74-0cc873edc83f)
+2. Why does it work?: <br>
+The application fails to sanitize user input, allowing us to manipulate the SQL query. The payload ' OR 1=1-- ensures the WHERE clause is always true, bypassing filters and exposing hidden data. And finally we access to the databsae
+
 
 ## m) Voluntary bonus: WebGoat: SQL Injection:
 
@@ -50,9 +63,13 @@
 
 ### References:
 Karvinen 2024: Information Security Course, https://terokarvinen.com/information-security/ <br>
-A01:2021 - Broken Access Control, https://owasp.org/Top10/A01_2021-Broken_Access_Control/
-A05:2021 - Security Misconfiguration, https://owasp.org/Top10/A05_2021-Security_Misconfiguration/
-A06:2021 - Vulnerable and Outdated Components, https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/
-A03:2021 - Injection, https://owasp.org/Top10/A03_2021-Injection/
-Munroe: xkcd 327: Exploits of a Mom, https://xkcd.com/327/
-Install WebGoat 2023.4, https://terokarvinen.com/2023/webgoat-2023-4-ethical-web-hacking/
+A01:2021 - Broken Access Control, https://owasp.org/Top10/A01_2021-Broken_Access_Control/ <br>
+A05:2021 - Security Misconfiguration, https://owasp.org/Top10/A05_2021-Security_Misconfiguration/ <br>
+A06:2021 - Vulnerable and Outdated Components, https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/ <br>
+A03:2021 - Injection, https://owasp.org/Top10/A03_2021-Injection/ <br>
+Munroe: xkcd 327: Exploits of a Mom, https://xkcd.com/327/ <br>
+Install WebGoat 2023.4, https://terokarvinen.com/2023/webgoat-2023-4-ethical-web-hacking/ <br>
+0 SELECT basics, https://sqlzoo.net/wiki/SELECT_basics <br>
+1 SELECT name, https://sqlzoo.net/wiki/SELECT_names <br>
+2 SELECT from World, https://sqlzoo.net/wiki/SELECT_from_WORLD_Tutorial <br>
+Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data, https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data <br>
