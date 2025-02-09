@@ -65,9 +65,15 @@ I solved three levels starting from: 0 SELECT basics to 2 SELECT from World. The
 2. Why does it work?: <br>
 The application fails to sanitize user input, allowing us to manipulate the SQL query. The payload ' OR 1=1-- ensures the WHERE clause is always true, bypassing filters and exposing hidden data. And finally we access to the databsae
 
-## m) Voluntary bonus: WebGoat: SQL Injection:
+## m) Voluntary bonus: WebGoat: SQL Injection: <br>
+I also wanted to check this and I liked it, here are the screenshots of the interactive parts of this work:
+1. ![image](https://github.com/user-attachments/assets/4700c2dc-ac99-4d2b-aaea-16ebb11b806d)
+2. I got this one after trying for a couple of minutes and learning the logic: ![image](https://github.com/user-attachments/assets/947454d2-0200-4e85-9c8c-42c8b220ea57)
+3. I used the same logic for this one: ![image](https://github.com/user-attachments/assets/5a2da820-c0a2-4dcd-a791-a1b70c9892fd)
+4. This one was about understanding and knowing the syntax. ![image](https://github.com/user-attachments/assets/4c846059-a41e-4e6d-8232-24d4f8b20ddb)
 
-## n) Voluntary bonus: solve some Portswigger labs marked as Apprentice (easy level):
+## n) Voluntary bonus: solve some Portswigger labs marked as Apprentice (easy level): <br>
+This one was easier then we former lab. We bypass the password check by entering "--". So when we write "administrator'--" as the username and leave the password blank or write anything in the the system automatically logs us in as the administrator. ![image](https://github.com/user-attachments/assets/eb497928-4c56-4a73-9d39-15e2626d8c66)
 
 
 ### References:
@@ -82,3 +88,4 @@ Install WebGoat 2023.4, https://terokarvinen.com/2023/webgoat-2023-4-ethical-web
 1 SELECT name, https://sqlzoo.net/wiki/SELECT_names <br>
 2 SELECT from World, https://sqlzoo.net/wiki/SELECT_from_WORLD_Tutorial <br>
 Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data, https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data <br>
+Lab: SQL injection vulnerability allowing login bypass, https://portswigger.net/web-security/sql-injection/lab-login-bypass <br>
