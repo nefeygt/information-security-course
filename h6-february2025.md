@@ -42,8 +42,6 @@ I cracked it:
 I created a zip file and by following the steps from the last question I cracked it's password and it's correct!
 ![image](https://github.com/user-attachments/assets/2146f467-32ae-48f9-b17c-9c8c575620f0)
 
-## o) Voluntary: create a password protected file other than ZIP. Crack the password. How many formats can you handle?:
-
 ## p) Voluntary: Watch and summarize: : <br>
 - Jackpotting: Attackers physically access ATMs to install malware or hardware devices, forcing the machine to dispense all its cash.
 - Techniques:
