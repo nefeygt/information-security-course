@@ -21,6 +21,16 @@
       - Case studies show Tor’s limitations against advanced adversaries.
 
 ## a) Install TOR browser and access TOR network (.onion addresses).: <br>
+I downloaded it from TOR's official website which was provided on Tero's hw instructions:
+![image](https://github.com/user-attachments/assets/835d82f5-89f0-4038-80f1-0f42ef116987)
+![image](https://github.com/user-attachments/assets/91a96371-49ff-48d2-b26e-7ad847314e73)
+I did some surfing and it's interesting for my first time here
+![image](https://github.com/user-attachments/assets/16bcd9de-acbe-429e-a984-f72a540214de)
+![asd](https://github.com/user-attachments/assets/15c140a8-b018-45d8-9fc9-17f387a67c2a)
+
+
+
+
 
 ## b) Browse TOR network, find, take screenshots and comment: <br>
 -search engine for onion sites
@@ -40,6 +50,4 @@ I created a zip file and by following the steps from the last question I cracked
 Karvinen 2024: Information Security Course, https://terokarvinen.com/information-security/ <br>
 Quintin 2014: 7 Things You Should Know About Tor, https://www.eff.org/deeplinks/2014/07/7-things-you-should-know-about-tor <br>
 Shavers & Bair 2016: Hiding Behind the Keyboard: The Tor Browser €; subchapters: "Introduction", "History and Intended Use of The Onion Router", "How The Onion Router Works", "Tracking Criminals Using TOR"., https://learning.oreilly.com/library/view/hiding-behind-the/9780128033524/XHTML/B9780128033401000021/B9780128033401000021.xhtml#s0025 <br>
-Karvinen 2023: Crack File Password With John., https://terokarvinen.com/2023/crack-file-password-with-john/ <br>
-Jackpotting ATM's (Automated Teller Machines) - Its easier than you might think - Alexander Forbes, https://www.youtube.com/watch?v=ThPJrPf7O2s <br>
-
+Download TOR Browser, https://www.torproject.org/download/ <br>
