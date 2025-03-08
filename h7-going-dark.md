@@ -10,6 +10,7 @@ a. Quintin 2014: 7 Things You Should Know About Tor:
   5. Tor Browser Bundle and Tails OS simplify secure browsing.
   6. Faster than ever, but more relays = better performance.
   7. Anonymity requires proper use (no logging into Google/Facebook, avoiding traffic correlation).
+
 b. Shavers & Bair 2016: Hiding Behind the Keyboard: The Tor Browser:
    - Introduction: Tor’s role in enabling anonymity for both privacy advocates and criminals.
    - History and Intended Use: Developed by U.S. Navy for secure communication; later open-sourced for public use to promote free speech and privacy.
