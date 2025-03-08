@@ -2,16 +2,15 @@
 # h7 Going Dark
 
 ## x) Read and summarize:
-a. Quintin 2014: 7 Things You Should Know About Tor:
-  1. Despite NSA/FBI attempts, Tor’s core anonymity remains unbroken. Attacks rely on browser exploits/user misconfiguration, not cryptographic flaws.
-  2. Used by activists, journalists, military, and privacy-conscious users. Criminals have better tools (botnets).
-  3. Open-source and audited. Initial Navy funding ≠ backdoor.
-  4. No U.S. prosecutions for relay operators. EFF runs its own relay.
-  5. Tor Browser Bundle and Tails OS simplify secure browsing.
-  6. Faster than ever, but more relays = better performance.
-  7. Anonymity requires proper use (no logging into Google/Facebook, avoiding traffic correlation).
-
-b. Shavers & Bair 2016: Hiding Behind the Keyboard: The Tor Browser:
+1. Quintin 2014: 7 Things You Should Know About Tor:
+  - Despite NSA/FBI attempts, Tor’s core anonymity remains unbroken. Attacks rely on browser exploits/user misconfiguration, not cryptographic flaws.
+  - Used by activists, journalists, military, and privacy-conscious users. Criminals have better tools (botnets).
+  - Open-source and audited. Initial Navy funding ≠ backdoor.
+  - No U.S. prosecutions for relay operators. EFF runs its own relay.
+  - Tor Browser Bundle and Tails OS simplify secure browsing.
+  - Faster than ever, but more relays = better performance.
+  - Anonymity requires proper use (no logging into Google/Facebook, avoiding traffic correlation).
+2. Shavers & Bair 2016: Hiding Behind the Keyboard: The Tor Browser:
    - Introduction: Tor’s role in enabling anonymity for both privacy advocates and criminals.
    - History and Intended Use: Developed by U.S. Navy for secure communication; later open-sourced for public use to promote free speech and privacy.
    - How Tor Works:
